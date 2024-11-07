@@ -1,0 +1,33 @@
+.h1-titulo{
+    text-align: center;
+}
+
+main {
+    padding: 20px 0;
+}
+h2 {
+    font-size: 2rem;
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+p {
+    line-height: 1.6;
+}
+/* Estilo para la barra lateral */
+.col-md-4 {
+    background-color: #e9ecef; /* Fondo claro para destacar */
+    padding: 20px;
+    border-radius: 10px;
+}
+h3 {
+    color: #333;
+}
+
+.seccioncartas{
+    background-color: rgb(253, 238, 238);
+    display: flex;
+    justify-content: center;
+  }
+  .card{
+    margin: 50px;
+  }
