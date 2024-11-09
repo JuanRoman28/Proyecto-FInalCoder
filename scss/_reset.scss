@@ -4,14 +4,14 @@ a {
     transition: color 0.3s ease;
 }
 a:hover {
-    color: #0056b3;
+    color: #000000;
 }
 /* Transiciones en botones */
 button, .btn {
-    transition: background-color 0.5s ease, transform 0.5s ease;
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 button:hover, .btn:hover {
-    transform: scale(1.50); /* Ampliar ligeramente el botón al pasar el ratón */
+    transform: scale(1.30); /* Ampliar ligeramente el botón al pasar el ratón */
 }
 /* Responsivo */
 @media (max-width: 768px) {
@@ -27,12 +27,14 @@ button:hover, .btn:hover {
     display: flex;
 }
 .logo1{
+  margin: 15px;
     display: flex;
 }
 .h1-titulo{
     text-align: center;
-    color: #0056b3;
+    color: #013d7e;
     text-decoration-line: underline;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #contact {

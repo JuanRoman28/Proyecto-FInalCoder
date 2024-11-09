@@ -15,12 +15,16 @@ p {
 }
 /* Estilo para la barra lateral */
 .col-md-4 {
-    background-color: #e9ecef; /* Fondo claro para destacar */
+    background-color: #bbc1c7; /* Fondo claro para destacar */
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 h3 {
-    color: #333;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .seccioncartas{
@@ -31,3 +35,14 @@ h3 {
   .card{
     margin: 50px;
   }
+
+.logowp{
+    position: fixed;
+    right: 15px;
+    bottom:35px;
+    transition: 1s;
+    &:hover{
+        transform:rotate(360deg) ;
+    }
+
+}
